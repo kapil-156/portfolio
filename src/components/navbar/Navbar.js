@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logoLight from "../../Assets/logoLight.png";
-import logoDark from "../../Assets/logoDark.png";
 
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -44,14 +42,14 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
             alt="brand"
             style={{width: "48", height: "40"}}
           />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -73,17 +71,6 @@ function NavBar() {
                 Home
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                About
-              </Nav.Link>
-            </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -91,15 +78,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 Projects
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                href="https://blog.rahuljha.info/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Blogs
               </Nav.Link>
             </Nav.Item>
           </Nav>

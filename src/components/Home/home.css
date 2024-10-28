@@ -221,3 +221,26 @@
 .icon-colour {
   color: var(--clr-primary) !important;
 }
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  color: var(--clr-primary);
+  vertical-align: middle !important;
+  text-align: center !important;
+  background: transparent !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 5px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+.tech-icons:hover {
+  transform: scale(1.08) !important;
+  overflow: hidden !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}

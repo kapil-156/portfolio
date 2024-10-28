@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiOutlineMail,
-} from "react-icons/ai";
+import PDFViewer from "./pdfview";
+import Techstack from "../About/Techstack";
+import Toolstack from "../About/Toolstack";
+import { AiFillGithub, AiFillInstagram, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -15,47 +13,41 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
               <span className="primary-header"> ABOUT </span> ME
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                Self-Taught Web Developer
-              </i>{" "}
-              who loves solving problems and building Websites.
-              <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
-              new things.
-              <br />
-              <br />I am more interested in building new
-              <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
-              <br />
-              <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">Node.js</i> and Modern Javascript
-              Library and Framework like
-              <i className="primary-header"> React.js.</i>
-              <br />
-              <br />
-              Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              As a Determined Developer with{" "}
+              <i className="primary-header">4 years </i>of experience in a
+              fast-paced department, I have honed my skills in multilingual
+              communication and collaboration with people of different
+              backgrounds and personalities. My{" "}
+              <i className="primary-header"></i>optimism, punctuality, and
+              teamplayer attitude have helped me to deliver quality work and
+              meet deadlines
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img
-                data-aos="fade-left"
-                src={myImg}
-                className="img-fluid"
-                alt="avatar"
-              />
-            </Tilt>
-          </Col>
+        </Row>
+        <PDFViewer />
+        <Row>
+          <>
+            <h1 data-aos="fade-right">
+              <span className="primary-header">Skillset</span> I Work With
+            </h1>
+
+            <div data-aos="fade-up">
+              <Techstack />
+            </div>
+
+            <h1 data-aos="fade-right">
+              <span className="primary-header">Tools</span> I use
+            </h1>
+            <div data-aos="fade-up">
+              <Toolstack data-aos="fade-up" />
+            </div>
+          </>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -66,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/kapil-156"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,18 +69,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kumardotexe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:bsr.kapil@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +80,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/b-sai-raghavendra-kapil/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -110,7 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href="https://www.instagram.com/kapil_bsr/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

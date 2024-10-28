@@ -17,7 +17,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <span>
             Designed and Developed by{" "}
-            <i className="primary-header">Rahul Jha</i>
+            <i className="primary-header">Kapil</i>
           </span>
         </Col>
         <Col md="4" className="footer-body">
@@ -26,7 +26,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="github"
-                href="https://github.com/Rahuljha4171"
+                href="https://github.com/kapil-156"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github"
@@ -37,20 +37,8 @@ function Footer() {
             <li className="social-icons">
               <a
                 style={{ color: `var(--clr-primary)` }}
-                className="twitter"
-                href="https://twitter.com/kumardotexe"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="twitter"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
                 className="email"
-                href="mailto:rahul.workmail01@gmail.com"
+                href="bsr.kapil@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="email"
@@ -62,7 +50,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="linkedin"
-                href="https://www.linkedin.com/in/Rahuljha4171/"
+                href="https://www.linkedin.com/in/b-sai-raghavendra-kapil/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="linkedin"
@@ -74,7 +62,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="instagram"
-                href="https://www.instagram.com/dead.programmer/"
+                href="https://www.instagram.com/kapil_bsr/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
