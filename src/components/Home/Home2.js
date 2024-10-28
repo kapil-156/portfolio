@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
-import PDFViewer from "./pdfview";
 import Techstack from "../About/Techstack";
 import Toolstack from "../About/Toolstack";
-import { AiFillGithub, AiFillInstagram, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiOutlineMail , AiFillFile} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -30,7 +29,7 @@ function Home2() {
             </p>
           </Col>
         </Row>
-        <PDFViewer />
+       
         <Row>
           <>
             <h1 data-aos="fade-right">
@@ -98,6 +97,17 @@ function Home2() {
                   aria-label="instagram"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="kapil.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="resume"
+                >
+                  <AiFillFile />
                 </a>
               </li>
             </ul>

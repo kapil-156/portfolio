@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineMail,
+  AiFillFile
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "./footer.css";
@@ -69,6 +70,19 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
+            </li>
+      
+            <li className="social-icons">
+                <a
+                style={{ color: `var(--clr-primary)` }}
+                className="resume"
+                href="kapil.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="resume"
+                >
+                  <AiFillFile />
+                </a>
             </li>
           </ul>
         </Col>
